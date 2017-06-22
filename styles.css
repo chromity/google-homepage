@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: arial, serif;
+}
+
+.navbar {
+  list-style-type: none;
+  margin-top: 19px;
+  padding: 0 30px 0 15px;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.footer {
+  list-style-type: none;
+  padding: 0 30px 0 15px;
+  font-size: 13px;
+  line-height: 24px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  color: #666;
+  height: 41px;
+  margin-left: 2px;
+}
+
+.navbar li {
+  float: right;
+  display: block;
+  margin-left: 16px;
+}
+
+.footer li {
+  display: block;
+  margin-left: 16px;
+  margin-top: 9px;
+}
+
+.footer li a {
+  text-decoration: none;
+  color: #666;
+  margin: 0 9px 9px 0;
+}
+
+.footer-left li {
+  float: left;
+}
+
+.footer-right li {
+  float: right;
+}
+
+.footer-right {
+  margin-right: 45px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: #222;
+}
+
+.navbar li a:hover {
+  text-decoration: underline;
+}
+
+.app-btn {
+  margin: 4px 6px 0px 6px;
+}
+
+#gmail {
+  margin-right: -1px;
+}
+
+#signin-btn {
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: -webkit-linear-gradient(top, #4387fd, #4583ea);
+    border-radius: 2px;
+    padding: 6px 12px 7px 12px;
+    white-space: nowrap;
+    color: #fff;
+
+}
+
+.google {
+  height: 92px;
+  width: 272px;
+}
+
+.content {
+  padding-top: 179px;
+  display: block;
+}
+
+.search-bar {
+  color: #222;
+  display: block;
+  height: 44px;
+  line-height: 0px;
+  overflow: hidden;
+  padding: 5px 9px 0px 16px;
+  white-space: nowrap;
+  width: 558px;
+  box-sizing: border-box;
+  direction: ltr;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #dfdfdf;
+  outline: none;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.search-bar:hover {
+  border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+}
+
+.search-bar:focus {
+  border-color: #4d90fe;
+}
+
+
+input[type="submit"] {
+  border-radius: 2px;
+  background: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  color: #757575;
+  cursor: default;
+  font-size: 13px;
+  font-weight: bolder;
+  width: 145px;
+  padding: 0 16px;
+  height: 36px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: 7px;
+}
+
+input[type="submit"]:hover {
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  background: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  color: #222;
+}
+
+.language {
+  margin-top: 30px;
+  font-size: 13px;
+}
+
+.language a {
+  text-decoration: none;
+  padding-right: 5px;
+}
